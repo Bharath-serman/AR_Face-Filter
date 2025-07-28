@@ -7,7 +7,7 @@ This project is an Augmented Reality face filter built using **Unity**, **AR Fou
 - Real-time **AR face tracking** using the front camera
 - Custom **3D sunglasses** appear on the user's face
 - Built with Unity’s **Visual Scripting** (no C# required)
-- Supports Android and iOS with ARCore/ARKit
+- Supports Android with ARCore
 - Optional XR Device Simulator setup for in-editor testing
 
 ---
@@ -16,7 +16,7 @@ This project is an Augmented Reality face filter built using **Unity**, **AR Fou
 
 - **Unity 2022.x or 2023.x**
 - **AR Foundation**
-- **ARKit / ARCore**
+- **ARCore**
 - **XR Plugin Management**
 - **Unity Visual Scripting**
 
@@ -27,10 +27,9 @@ This project is an Augmented Reality face filter built using **Unity**, **AR Fou
 ### Prerequisites
 
 - Unity Hub + Unity Editor (2022.3 LTS recommended)
-- AR-supported Android or iOS device
+- AR-supported Android device
 - Unity packages:
   - `AR Foundation`
-  - `ARKit XR Plugin` (for iOS)
   - `ARCore XR Plugin` (for Android)
   - `XR Plugin Management`
   - `Visual Scripting`
@@ -44,8 +43,7 @@ This project is an Augmented Reality face filter built using **Unity**, **AR Fou
 2. Go to:  
    `Edit > Project Settings > XR Plug-in Management`
 
-3. Under the relevant platform tab:
-   - ✅ Enable **ARKit** for iOS  
+3. Under the Android platform tab: 
    - ✅ Enable **ARCore** for Android
 
 ---
@@ -62,7 +60,7 @@ Ensure the following objects are present in your scene:
 
 Make sure your build settings are configured as follows:
 
-- **Platform**: Android or iOS
+- **Platform**: Android
 - **Architecture**: `ARM64`
 - **Scripting Backend**: `IL2CPP`
 - **Camera Permission**: Enabled (required for AR to work)
