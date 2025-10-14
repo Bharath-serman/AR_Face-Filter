@@ -34,7 +34,7 @@ This project is an Augmented Reality face filter built using **Unity**, **AR Fou
   - `XR Plugin Management`
   - `Visual Scripting`
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
 ###  Open the Project in Unity
 
@@ -44,7 +44,7 @@ This project is an Augmented Reality face filter built using **Unity**, **AR Fou
    `Edit > Project Settings > XR Plug-in Management`
 
 3. Under the Android platform tab: 
-   - ✅ Enable **ARCore** for Android
+   - Enable **ARCore** for Android
 
 ---
 
@@ -56,7 +56,7 @@ Ensure the following objects are present in your scene:
 - `AR Session Origin`
 - `AR Face Manager`
 
-### ⚙️ Build Settings
+### Build Settings
 
 Make sure your build settings are configured as follows:
 
@@ -79,7 +79,7 @@ This project uses Unity Visual Scripting to:
 
 ---
 
-## 📱 Demo Screenshots
+## Demo Screenshots
 
 Here are a few snapshots:
 
